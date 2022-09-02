@@ -29,3 +29,13 @@ This is just a quick play with code to do the following
 * [Canonical Project structure](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1204r0.html)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 
+
+### Documentation
+
+* [doxygen](https://doxygen.nl/index.html)
+
+
+### CMake
+
+* [CMake C++ Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html)
+
