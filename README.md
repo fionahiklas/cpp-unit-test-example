@@ -28,6 +28,8 @@ This is just a quick play with code to do the following
 
 * [Canonical Project structure](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1204r0.html)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+* [Stroustrup Style and Technique FAQ](https://www.stroustrup.com/bs_faq2.html)
+* [C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)
 
 
 ### Documentation
