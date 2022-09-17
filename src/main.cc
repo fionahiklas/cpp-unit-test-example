@@ -4,8 +4,8 @@
 
 #include <iostream>
 
-void main() {
-  std::cout << "Hello World";
+int main() {
+  std::cout << "Hello World\n";
   return 0;
 }
 
