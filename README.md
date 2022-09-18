@@ -24,6 +24,24 @@ cd build
 cmake --build .
 ```
 
+Run the tests using this command
+
+```
+make cppUnitTestExample_unit_tests
+```
+
+Verbose output using this command
+
+```
+make VERBOSE=1 cppUnitTestExample_unit_tests
+```
+
+Make the executable
+
+```
+make cppUnitTestExample
+```
+
 
 ## References
 

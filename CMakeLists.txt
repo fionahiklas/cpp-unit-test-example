@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(UnitTestExample VERSION 0.0.1)
+set(PROJECT_NAME_STR cppUnitTestExample)
+
+project(${PROJECT_NAME_STR} VERSION 0.0.1)
 
 # Dependencies
 find_package(Boost COMPONENTS filesystem system REQUIRED)
@@ -18,5 +20,5 @@ include_directories(${Boost_INCLUDE_DIRS})
 
 # Simple application 
 set(SOURCE_FILES ${INC_FILES} ${SRC_FILES})
-add_executable(appmain ${SOURCE_FILES})
+add_executable(${PROJECT_NAME_STR} ${SOURCE_FILES})
 

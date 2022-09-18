@@ -22,5 +22,4 @@ add_executable(${PROJECT_UNIT_TESTS_NAME} ${UNIT_TESTS_SRC_FILES} ${SRC_FILES})
 target_link_libraries(${PROJECT_UNIT_TESTS_NAME} ${Boost_LIBRARIES})
 
 enable_testing()
-add_test(UnitTest ${PROJECT_UNIT_TESTS_NAME})
-
+add_test(NAME unit_tests COMMAND ${PROJECT_UNIT_TESTS_NAME})

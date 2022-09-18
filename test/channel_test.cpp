@@ -1,11 +1,12 @@
 
 #define BOOST_TEST_MODULE Channel Test
-#include <boost/test/unit_test>
+#include <boost/test/unit_test.hpp>
 
-#include <channel>
+#include "channel.hpp"
 
 BOOST_AUTO_TEST_CASE(create_channel_test)
 {
-  Channel test_channel("Hello");
-  BOOST_TEST(test_channel != null);
+  std::string test_channel_name("Hello");
+  Channel test_channel(test_channel_name);
+  BOOST_TEST( test_channel_name.compare(test_channel.get_channel_name()) == 0 );
 }
