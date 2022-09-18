@@ -14,6 +14,15 @@ This is just a quick play with code to do the following
 * doxygen
 
 
+## Quickstart
+
+* Create a `build` directory under the repo 
+* Run the following command to create the make files
+
+```
+cd build
+cmake --build .
+```
 
 
 ## References
@@ -21,7 +30,12 @@ This is just a quick play with code to do the following
 ### C++ Test Libraries
 
 * [List of libraries](https://en.wikipedia.org/wiki/List_of_unit_testing_frameworks#C++)
+
+
+### Boost
+
 * [Boost library](https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries))
+* [Boost test and CMake](https://www.boost.org/doc/libs/1_68_0/libs/test/doc/html/boost_test/section_faq.html)
 
 
 ### Code Style and Layout
@@ -40,4 +54,6 @@ This is just a quick play with code to do the following
 ### CMake
 
 * [CMake C++ Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html)
-
+* [CMake Boost Demo](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1204r0.html)
+* [CMake mode wiki page](https://www.emacswiki.org/emacs/CMakeMode)
+* [CMake mode auxillary file](https://github.com/Kitware/CMake/blob/master/Auxiliary/cmake-mode.el)
