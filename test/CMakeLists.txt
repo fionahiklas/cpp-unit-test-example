@@ -18,6 +18,7 @@ include_directories(${Boost_INCLUDE_DIRS})
 include_directories(${UNIT_TESTS_INCLUDES})
 
 # Unit test executable
+add_definitions(-DBOOST_TEST_DYN_LINK)
 add_executable(${PROJECT_UNIT_TESTS_NAME} ${UNIT_TESTS_SRC_FILES} ${SRC_FILES})
 target_link_libraries(${PROJECT_UNIT_TESTS_NAME} ${Boost_LIBRARIES})
 

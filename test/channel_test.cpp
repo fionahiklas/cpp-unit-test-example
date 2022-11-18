@@ -1,5 +1,5 @@
-
-#define BOOST_TEST_MODULE Channel Test
+#define BOOST_TEST_DYN_LINK
+#define BOOST_TEST_MODULE ChannelTest
 #include <boost/test/unit_test.hpp>
 
 #include "channel.hpp"
