@@ -175,6 +175,7 @@ This seemed to compile
 
 ### CMake
 
+* [CMake boost demo](https://github.com/albertchan/cmake-boost-demo)
 * [CMake C++ Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html)
 * [CMake Boost Demo](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1204r0.html)
 * [CMake mode wiki page](https://www.emacswiki.org/emacs/CMakeMode)
